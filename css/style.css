@@ -13,18 +13,21 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0,0,0,0.1);
+  background: rgb(106,50,195);
+  background: linear-gradient(325deg, rgba(106,50,195,1) 11%, rgba(79,23,167,1) 24%, rgba(63,5,154,1) 48%, rgba(106,50,195,1) 90%);
 }
 
 button {
   cursor: pointer;
+  color: whitesmoke;
 }
 
 .container {
   width: 90%;
   height: 80%;
   border-radius: 10px;
-  background: white;
+  background: #9667e0;
+  color: white;
 }
 
 .header {
@@ -48,7 +51,7 @@ button {
   border-radius: 5px;
   border: none;
   color: white;
-  background-color: rgb(57, 57, 226);
+  background-color: rgb(103, 45, 195);
 }
 
 .divTable {
@@ -60,12 +63,12 @@ button {
 
 .divTable::-webkit-scrollbar {
   width: 12px;
-  background-color: whitesmoke; 
+  background-color: #9667e0; 
 }
 
 .divTable::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: darkgray; 
+  background-color: #9667e0; 
 }
 
 table {
@@ -76,11 +79,11 @@ table {
 }
 
 thead {
-  background-color: whitesmoke;
+  background-color: #835cc3;
 }
 
 tr {
-  border-bottom: 1px solid rgb(238, 235, 235)!important;
+  border-bottom: 1px solid #834fd6 !important;
 }
 
 tbody tr td {
@@ -161,7 +164,7 @@ tbody tr td.acao {
   flex-direction: column;
   align-items: center;
   padding: 40px;
-  background-color: white;
+  background-color: #9667e0;
   border-radius: 10px;
   width: 50%;
 }
@@ -180,6 +183,9 @@ tbody tr td.acao {
   border-top: none;
   border-left: none;
   border-right: none;
+  border-bottom: 1px solid #835cc3;
+  background-color: #9667e0;
+  color: white;
 }
 
 .modal button {
@@ -190,7 +196,7 @@ tbody tr td.acao {
   padding: 5px 10px; 
   width: 100%;
   border: none;
-  background-color: rgb(57, 57, 226);
+  background-color: rgb(103, 45, 195);
   color: white;
 }
 
